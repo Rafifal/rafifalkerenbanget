@@ -232,7 +232,7 @@ span{
         content: "Developer";
     }
     41%, 60%{
-        content: "Web Designer";
+        content: "IT Support";
     }
     61%, 80%{
         content: "Student";
@@ -279,4 +279,5 @@ span{
     .menu-btn{
         display: block;
     }
+
 }
