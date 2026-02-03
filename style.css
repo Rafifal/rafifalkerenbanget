@@ -67,7 +67,7 @@ nav a.active{
 @media(max-width:995px){
     nav{
         position: absolute;
-        display: block;
+        display: none;
         top: 0;
         right: 0;
         width: 40%;
@@ -266,6 +266,13 @@ span{
         width: 70vw;
         margin-top: 4rem;
     }
+}
+
+.menu-btn{
+    font-size: 2.6rem;
+    color: white;
+    display: none;
+    cursor: pointer;
 }
 
 @media(max-width:995px){

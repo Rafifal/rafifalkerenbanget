@@ -11,6 +11,8 @@
 <body>
     <header>
         <a href="#" class="logo">Rafifal</a>
+        <!-- tombol menu -->
+        <i class="fa-solid fa-bars menu-btn"></i>
 
         <nav>
             <a href="#" class="active"> Home</a>
@@ -40,3 +42,12 @@
     </section>
 </body>
 </html>
+
+<script>
+const menuBtn = document.querySelector(".menu-btn");
+const nav = document.querySelector("nav");
+
+menuBtn.onclick = () => {
+    nav.classList.toggle("active");
+}
+</script>
